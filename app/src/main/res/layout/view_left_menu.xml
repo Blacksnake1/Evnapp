@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/txt_menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:text="Đào Gia Hân"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/txt_menu_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="System admin" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/txt_menu_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="IT department" />
+
+    <TextView
+
+        android:layout_marginStart="20dp"
+        android:id="@+id/txt_menu_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Cầu Giấy Hà Nội" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/txt_menu_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="daogiahan1709@evn.com" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_create_staff"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE NEW STAFF"
+        android:textColor="@color/gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_view_all_role"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL ROLE"
+        android:textColor="@color/gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_change_profile"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PROFILE"
+        android:textColor="@color/gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_of"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN OF"
+        android:textColor="@color/gray" />
+
+</LinearLayout>
